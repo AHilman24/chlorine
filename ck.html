@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contoh CKEditor</title>
+  <script src="https://cdn.ckeditor.com/ckeditor5/35.3.1/classic/ckeditor.js"></script>
+</head>
+<body>
+    <input type="text" name="name" id="editor">
+  <script>
+    ClassicEditor
+      .create( document.querySelector( '#editor'   
+ ) )
+      .catch( error => {
+          console.error( error );
+      } );
+  </script>
+</body>
+</html>   
